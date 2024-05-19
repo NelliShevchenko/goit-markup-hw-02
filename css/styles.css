@@ -137,21 +137,17 @@ body {
 .contact-address {
     font-style: normal;
     margin-left: auto;
-}
-
-.address-list {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
     gap: 40px;
 }
 
-.address-link {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
-
 .address-list-link {
+    display: flex;
+    gap: 40px;
+
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -161,6 +157,12 @@ body {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.address-link {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .address-link:hover,
 .address-link:focus {
@@ -168,30 +170,32 @@ body {
 }
 
 /*----------HERO----------*/
-.page-main {
+.page-header {
     width: 1440px;
     height: 600px;
-    top: 72px;
-    gap: 0px;
-    opacity: 0px;
+    background: var(--grey);
 }
 
-.page-title {
-    width: 496px;
-    height: 120px;
-    top: 260px;
-    left: 472px;
-    gap: 0px;
-    opacity: 0px;
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
-    font-family: Roboto;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    text-align: center;
-
-    background: #FFFFFF;
+.hero-first-section {
+    background-color: #2e2f42;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 188px;
+    padding-top: 188px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/hero-image.jpg);
 }
 
 .button-icon {
