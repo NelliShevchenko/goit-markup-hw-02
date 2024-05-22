@@ -328,19 +328,43 @@ ul.team-list {
     align-items: center;
 }
 
+/*----------OUR TEAM-----------*/
+
 section.third-section.section-padding {
-    background: #c7c4bf;
+    background: #f4f4fd;
     padding: 120px 0px;
 }
 
+
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 h2.team-title {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     font-size: 36px;
-    font-weight: 600;
-    line-height: 40px;
-    letter-spacing: 0.6px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
     margin-bottom: 72px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
 }
 
 ul.portfolio-list {
@@ -356,4 +380,34 @@ ul.portfolio-list li.potfolio-list-item {
     flex-basis: 33.3%;
     width: 33.3%;
     margin-bottom: 48px;
+}
+
+.members-info {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.team-staff {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.team-staff-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
